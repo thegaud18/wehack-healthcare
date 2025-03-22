@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindWell - About Us</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="/">MINDWELL</a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="desktop-nav">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/about" class="nav-link">About Us</a>
+                    <a href="/services" class="nav-link">Services</a>
+                    <a href="/resources" class="nav-link">Resources</a>
+                    <button class="join-button">Join</button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="mobile-menu-button">
+                    <button onclick="toggleMenu()">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="/" class="mobile-nav-link">Home</a>
+            <a href="/about" class="mobile-nav-link">About Us</a>
+            <a href="/services" class="mobile-nav-link">Services</a>
+            <a href="/resources" class="mobile-nav-link">Resources</a>
+            <button class="mobile-join-button">Join</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Our Story</h1>
+            <p>Dedicated to transforming mental healthcare through compassion, innovation, and accessibility.</p>
+        </div>
+    </div>
+
+    <!-- Mission & Values -->
+    <div class="mission-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Mission & Values</h2>
+                <p>We believe everyone deserves access to quality mental health care. Our platform bridges the gap between individuals and mental health professionals.</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Inclusive Care</h3>
+                    <p>Supporting diverse communities with culturally competent care</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3>Compassion First</h3>
+                    <p>Treating every individual with empathy and understanding</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Excellence</h3>
+                    <p>Maintaining the highest standards in mental healthcare</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Accessibility</h3>
+                    <p>Available 24/7 for those who need support</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Leadership Team</h2>
+                <p>Meet the dedicated professionals leading our mission to transform mental healthcare.</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80" alt="Dr. Sarah Chen">
+                    <div class="team-info">
+                        <h3>Dr. Sarah Chen</h3>
+                        <p class="role">Chief Executive Officer</p>
+                        <p class="bio">20+ years experience in mental healthcare</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80" alt="Dr. Michael Roberts">
+                    <div class="team-info">
+                        <h3>Dr. Michael Roberts</h3>
+                        <p class="role">Clinical Director</p>
+                        <p class="bio">Leading expert in teletherapy innovations</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80" alt="Dr. Emily Thompson">
+                    <div class="team-info">
+                        <h3>Dr. Emily Thompson</h3>
+                        <p class="role">Head of Research</p>
+                        <p class="bio">Pioneering research in digital mental health</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact CTA -->
+    <div class="cta-section">
+        <div class="container">
+            <h2>Ready to Join Our Mission?</h2>
+            <p>Connect with us to learn more about our services and how we can help.</p>
+            <button class="cta-button">Contact Us</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
